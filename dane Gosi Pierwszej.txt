@@ -1,0 +1,28 @@
+<h2>Aplikantka radcowska Małgorzata Sojka</h2>
+<h3>Edukacja</h3>
+<ul class="custom-list check">	
+    
+	
+	<li>Studia prawnicze na Wydziale Prawa i Administracji Uniwersytetu Wrocławskiego. </li>
+    <li>Studia "Administracja w systemie prawa europejskiego" na Uniwersytecie Opolskim. W trakcie zajęć uniwersyteckich zdobyła licencję 
+	Państwowego Urzędu Nadzoru Ubezpieczeń. </li>
+	<li>Studia podyplomowe z zakresu Prawa Unii Europejskiej na Wydziale Prawa i Administracji Uniwersytetu Jagiellońskiego. </li>
+	<li>Podyplomowe Studium Prawa Handlowego i Gospodarczego na Wydziale Prawa i Administracji Uniwersytetu Śląskiego. </li>
+	<li>Aplikacja radcowska w Okręgowej Izbie Radców Prawnych w Opolu.</li>
+    <li>Język: angielski.</li>
+</ul>
+<h3>Praca zawodowa.</h3>
+<ul class="custom-list check">	
+    <li>Od kwietnia 2005r. do grudnia 2005r. praca w Kancelarii Prawnej "IUSTITIA".</li>
+    <li>Od stycznia 2006r. do chwili obecnej  praca w komórce zajmującej się zamówieniami publicznymi w Tauron Wytwarzanie S.A. 
+	wchodzącej w skład Grupy Kapitałowej Tauron. </li>
+</ul>
+	<h3>Działalność społeczna.</h3>
+<ul class="custom-list check">	
+    <li>Od ...... do ......asystentka społeczna Senatora Klemensa Ścierskiego.</li>	</div>
+		<div class="clear"></div>	
+	</div><!-- end wrapper -->
+	
+	
+   
+</ul>

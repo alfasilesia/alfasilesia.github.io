@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Kancelaria Radcy Prawnego Mikołów</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<link href='http://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<!--imports the main css file-->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<!--imports prettyPhoto css file-->
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen" />
+
+<!--imports jquery-->
+<script type="text/javascript" src="js/jquery-1.5.2.js"></script>
+<!--imports jquery form plugin-->
+<script type="text/javascript" src="js/jquery.form.js"></script>
+<!--imports twitter feed plugin-->
+<script type="text/javascript" src="js/jquery.tweet.js"></script>
+<!--imports easing plugin-->
+<script type="text/javascript" src="js/easing.js"></script>
+<!--imports cycle slider plugin-->
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<!--imports prettyPhoto plugin-->
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<!--imports jQuery Tools plugin-->
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
+<!--imports custom javascript code-->
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){	
+		$('#images-slider').cycle({ 
+			fx:      'growY', // transition type
+			speed:    600, 
+			timeout:  9000,
+			cleartype: false,   //  Fixes the issue with IE6+
+			startingSlide: 0,
+			next: '#cycle-next',
+			prev: '#cycle-prev'
+		});	
+	});			
+</script>
+
+<!--[if IE 7]><link href="css/ie7.css" rel="stylesheet" type="text/css" media="screen" /><![endif]-->
+
+</head>
+
+<body class="mosaic">
+	
+	<div id="wrapper">	
+		<div id="header">
+			
+			<div id="logo">
+				<h1><a href="index.html">Adrian Adamski</a></h1>
+				<p class="main-subtitle">kancelaria radcy prawnego</p>
+			</div><!-- end logo -->
+			
+			<ul id="navigation">
+				<li><a class="active" href="index.html">O Kancelarii</a>
+				</li>
+				<li><a href="zespol.html">Zespół</a></li>
+				<li><a href="oferta.html">Oferta</a>
+				</li>
+				<li><a href="ipr.html">IPR</a></li>
+				<li><a href="dziedziny.html">Dziedziny</a>
+				</li>
+				<li><a href="contact.html">Kontakt</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div><!-- end header -->
+	
+		<div id="featured">
+			<ul id="images-slider">
+				<!-- slide 1 -->
+				<li>
+					<img src="img/slide-3.jpg" alt="image" />
+					<!-- caption text -->
+					<div class="caption">
+						<h3><a href="contact.html">Lokalizacja Kancelarii</a></h3>
+						<p>Nasza firma znajduje się w Mikołowie, w niedalekim sąsiedztwie Katowic. Świadczymy usługi na rzecz Klientów z całego Śląska
+						</p>
+					</div><!-- end caption -->
+				</li>
+				<!-- slide 2 -->
+				<li>
+					<img src="img/slide-1.jpg" alt="image" />
+					<!-- caption text -->
+					<div class="caption">
+						<h3><a href="referencje.html">Nasi klienci o nas</a></h3>
+						<p>"W toku dotychczasowej współpracy, wspólnicy Kancelarii dali się poznać jako osoby rzetelnie realizujące powierzone im zadania..."<br/>Wiesław Krochmal i Tomasz Delowski</p>
+					</div><!-- end caption -->
+				</li>
+				<!-- slide 3 -->
+				<li>
+					<img src="img/slide-2.jpg" alt="image" />
+					<!-- caption text -->
+					<div class="caption">
+						<h3><a href="referencje.html">Nasi klienci o nas</a></h3>
+						<p>"Osoby tworzące Kancelarię wykazały się dużym profesjonalizmem, zaangażowaniem oraz troską o dobro Spółki."<br/>Anna Pater-Czaja</p>
+					</div><!-- end caption -->
+				</li>						
+			</ul>
+			
+			<ul id="slider-cycle-nav">
+				<li><a id="cycle-prev"></a></li>
+				<li><a id="cycle-next"></a></li>
+			</ul>
+		</div><!-- end featured -->
+		
+		<div class="separator-line"></div>
+		
+		<div class="tagline">
+			<div class="tagline-text">
+				<h3>Witamy na stronie <span>Kancelarii Radcy Prawnego</span> w Mikołowie</h3>
+				<p>Alfa Kancelaria Radcy Prawnego Adrian Adamski powstała w 2011r. jako kontynuacja działalności gospodarczej rozpoczętej przez radcę prawnego Adriana Adamskiego w roku 2005 i prowadzonej później przez okres 3 lat w formie spółki cywilnej.</p>
+			</div><!-- end tagline-text -->
+			
+			<div class="tagline-btn">
+				<a href="contact.html"><span class="main">Kontakt</span><span class="arrow-btn"></span></a>
+			</div><!-- end tagline-btn -->
+			<div class="clear"></div>
+		</div><!-- end tagline -->
+		
+		
+		
+		<div class="separator-line"></div>
+		
+	<!-- Second row of columns -->	
+		
+		<div class="col-container">
+			<div class="title-col">
+				<h2>Działalność Kancelarii</h2>
+			</div><!-- end main-col -->
+			
+			<div class="one-fourth">
+				<img class="box-img" src="img/futureprocessing.png" alt="Future Processing" />
+				<div class="box-title">
+					<h4><a href="referencje.html">Future Processing sp. z o.o.</a></h4>
+				</div><!-- end box-title -->	
+				<p>Międzynarodowe umowy handlowe, Licencje oprogramowania, stała obsługa prawna<br /><a href="referencje.html">Zobacz inne referencje</a></p>
+			</div><!-- end one-fourth -->
+			
+			<div class="one-fourth">
+				<img class="box-img" src="img/cprinwestor.png" alt="CPR Inwestor" />
+				<div class="box-title">
+					<h4><a href="referencje.html">Działalność w branży developerskiej.</a></h4>
+				</div><!-- end box-title -->	
+				<a href="referencje.html">Zobacz inne referencje</a></p>
+			</div><!-- end one-fourth -->
+			
+			<div class="one-fourth last">
+				<img class="box-img" src="img/oferta.png" alt="oferta rada prawny mikołów" />
+				<div class="box-title">
+					<h4>Pełna Oferta</h4>			
+				</div><!-- end box-title -->	
+				<p><a href="oferta.html">Zobacz pełną ofertę Kancelarii</a></p>
+			</div><!-- end one-fourth -->
+			
+			<div class="clear"></div>
+		</div><!-- col-container -->
+		
+	
+		
+	</div><!-- end wrapper -->
+	
+
+	
+	<div id="footer-bottom">
+		<div id="footer-bottom-content">
+			<div id="copyright">
+				<a href="index.html">www.alfa-silesia.pl</a>
+				<p>Copyright &copy; 2013 Alfa-Silesia. All rights reserved</p>
+			</div><!-- end copyright -->	
+			
+			<ul id="footer-nav">
+				<li><a href="index.html">O kancelarii</a></li>
+				<li><a href="zespol.html">Zespół</a></li>
+				<li><a href="oferta.html">Oferta</a></li>
+				<li><a href="dziedziny.html">Dziedziny</a></li>
+				<li><a href="contact.html">Kontakt</a></li>
+			</ul>			
+			
+			<div class="clear"></div>
+		</div><!-- end footer-bottom-content -->
+	</div><!-- end footer-bottom -->
+	
+</body>
+
+</html>
